@@ -57,9 +57,11 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>Verified_Customer__c</fullName>
+        <description>Verified_Customer</description>
         <externalId>false</externalId>
+        <inlineHelpText>Verified_Customer</inlineHelpText>
         <label>Verified Customer’s Name</label>
-        <length>255</length>
+        <length>254</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>

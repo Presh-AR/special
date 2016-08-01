@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>BuildAccount</members>
+        <members>CreateLeaseDocsVFController</members>
+        <members>TestSoql</members>
+        <members>buildAccountTest</members>
+        <members>calls</members>
+        <members>calls1</members>
+        <members>cwbtool__ApprovalFlowCustomAppStaticResourceTest</members>
+        <members>cwbtool__CONSTANT</members>
+        <members>cwbtool__CWBAPIUtil</members>
+        <members>cwbtool__CWBAPIUtilTest</members>
+        <members>cwbtool__CWBReportLicenseManagement</members>
+        <members>cwbtool__CWBReportModel</members>
+        <members>cwbtool__CWBReportModelTest</members>
+        <members>cwbtool__CWBSetupCtrl</members>
+        <members>cwbtool__CWBSetupCtrlTest</members>
+        <members>cwbtool__CodeComparator</members>
+        <members>cwbtool__CodeCoverage</members>
+        <members>cwbtool__CodeCoverageTest</members>
+        <members>cwbtool__ComparatorTest</members>
+        <members>cwbtool__ComponentComparatorUtil</members>
+        <members>cwbtool__ConnectionCtrl</members>
+        <members>cwbtool__ConnectionUtil</members>
+        <members>cwbtool__CryptoUtil</members>
+        <members>cwbtool__CryptoUtilTest</members>
+        <members>cwbtool__CurrentOrgCtrl</members>
+        <members>cwbtool__DashboardController</members>
+        <members>cwbtool__DashboardControllerTest</members>
+        <members>cwbtool__DashboardModel</members>
+        <members>cwbtool__DashboardService</members>
+        <members>cwbtool__DescribeApprovalProcessCtrl</members>
+        <members>cwbtool__DescribeApprovalProcessCtrlTest</members>
+        <members>cwbtool__DescribeCustomApplicationCtrl</members>
+        <members>cwbtool__DescribeCustomApplicationCtrlTest</members>
+        <members>cwbtool__DescribeLayoutCtrl</members>
+        <members>cwbtool__DescribeLayoutCtrl_Test</members>
+        <members>cwbtool__DescribeObjectCtrl</members>
+        <members>cwbtool__DescribeObjectCtrl_Test</members>
+        <members>cwbtool__DescribePermissionSetCtrl</members>
+        <members>cwbtool__DescribePermissionSetCtrl_Test</members>
+        <members>cwbtool__DescribeProfileCtrl</members>
+        <members>cwbtool__DescribeStaticResourceCtrl</members>
+        <members>cwbtool__DescribeStaticResourceCtrlTest</members>
+        <members>cwbtool__DescribeWorkflowCtrl</members>
+        <members>cwbtool__DescribeWorkflowCtrl_Test</members>
+        <members>cwbtool__ErrorLogService</members>
+        <members>cwbtool__ErrorLogServiceTest</members>
+        <members>cwbtool__FieldSchemaController</members>
+        <members>cwbtool__FieldSchemaControllerTest</members>
+        <members>cwbtool__FieldSchemaUtil</members>
+        <members>cwbtool__FieldTrackAnalysisBtch</members>
+        <members>cwbtool__FieldTrackAnalysisCtrl</members>
+        <members>cwbtool__FieldTrackAnalysisCtrl_Test</members>
+        <members>cwbtool__FieldTrackCtrl</members>
+        <members>cwbtool__FieldTrackCtrl_Test</members>
+        <members>cwbtool__FieldTrackUtility</members>
+        <members>cwbtool__ImpactAnalysisCtroller</members>
+        <members>cwbtool__ImpactAnalysisCtrollerTest</members>
+        <members>cwbtool__ImpactAnalysisModel</members>
+        <members>cwbtool__ImpactAnalysisUtil</members>
+        <members>cwbtool__InstallScriptTest</members>
+        <members>cwbtool__LayoutXMLReader</members>
+        <members>cwbtool__LicenceDetail</members>
+        <members>cwbtool__LicenseDetailWidgetCtrl</members>
+        <members>cwbtool__LicenseManagementController</members>
+        <members>cwbtool__MeataDataFileProperties</members>
+        <members>cwbtool__MetaDataUpdateUtil</members>
+        <members>cwbtool__MetadataService_V1</members>
+        <members>cwbtool__ORGComparatorModel</members>
+        <members>cwbtool__ORGComparatorUtil</members>
+        <members>cwbtool__PostInstallClass</members>
+        <members>cwbtool__ProfileComparatorController</members>
+        <members>cwbtool__ProfileComparatorControllerTest</members>
+        <members>cwbtool__ProfileUtil</members>
+        <members>cwbtool__SFDCAccessControlException</members>
+        <members>cwbtool__SFDCAccessController</members>
+        <members>cwbtool__SFDCAccessController_Test</members>
+        <members>cwbtool__SFDCUtil</members>
+        <members>cwbtool__SchemaLayoutModel</members>
+        <members>cwbtool__SchemaModel</members>
+        <members>cwbtool__SelectedComponentController</members>
+        <members>cwbtool__TokenFormatter</members>
+        <members>cwbtool__UpdateMetaDataController</members>
+        <members>cwbtool__UpdateMetaDataControllerTest</members>
+        <members>cwbtool__UserTest</members>
+        <members>cwbtool__Util</members>
+        <members>cwbtool__WebServiceMockHandler</members>
+        <members>cwbtool__XMLReaderUtil</members>
+        <members>cwbtool__oAuthController</members>
+        <members>cwbtool__oAuthControllerTest</members>
+        <members>cwbtool__oAuthUtil</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>cwbtool__AppUpgradeMessage</members>
+        <members>cwbtool__CWBReportLicenseManagement</members>
+        <members>cwbtool__CodeComparatorZip</members>
+        <members>cwbtool__ConnectionComp</members>
+        <members>cwbtool__DynamicModal</members>
+        <members>cwbtool__ImpactAnalysisReadZipFile</members>
+        <members>cwbtool__LicenseManagement</members>
+        <members>cwbtool__ReadZipFile</members>
+        <members>cwbtool__VFC_ApexDetailDownload</members>
+        <members>cwbtool__VFC_ApprovalProcess</members>
+        <members>cwbtool__VFC_Comparator</members>
+        <members>cwbtool__VFC_ComponentUpdateDetail</members>
+        <members>cwbtool__VFC_CustomFieldUpdateDetail</members>
+        <members>cwbtool__VFC_DownloadPermissionSet</members>
+        <members>cwbtool__VFC_FullCustomApplicationDetail</members>
+        <members>cwbtool__VFC_FullObjectDetail</members>
+        <members>cwbtool__VFC_FullPermissionSetDetail</members>
+        <members>cwbtool__VFC_FullProfileDetail</members>
+        <members>cwbtool__VFC_FullWorkflowDetail</members>
+        <members>cwbtool__VFC_LayoutDownload</members>
+        <members>cwbtool__VFC_LicenseDetailWidget</members>
+        <members>cwbtool__VFC_PermissionSetAssignment</members>
+        <members>cwbtool__VFC_ProfileComparisonPreview</members>
+        <members>cwbtool__VFC_ProfileComparisondownload</members>
+        <members>cwbtool__VFC_ProfileDownload</members>
+        <members>cwbtool__VFC_StaticResource</members>
+        <members>cwbtool__VFC_downloadObjectDetail</members>
+        <members>cwbtool__actionstatusNew</members>
+        <members>cwbtool__dashboard</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>cwbtool__CWB_Setup</members>
+        <members>cwbtool__Comparator</members>
+        <members>cwbtool__CompareProfile</members>
+        <members>cwbtool__CreateNewConnection</members>
+        <members>cwbtool__DescribeApprovalProcess</members>
+        <members>cwbtool__DescribeCustomApplication</members>
+        <members>cwbtool__DescribeLayout</members>
+        <members>cwbtool__DescribeObject</members>
+        <members>cwbtool__DescribePermissionSet</members>
+        <members>cwbtool__DescribeProfile</members>
+        <members>cwbtool__DescribeStaticResource</members>
+        <members>cwbtool__DescribeWorkflow</members>
+        <members>cwbtool__ExportToPDF</members>
+        <members>cwbtool__FieldPermission</members>
+        <members>cwbtool__FieldTrack</members>
+        <members>cwbtool__FieldTrackAnalysis</members>
+        <members>cwbtool__FieldTrackTab</members>
+        <members>cwbtool__ImpactAnalysis</members>
+        <members>cwbtool__ProcessObjectFile</members>
+        <members>cwbtool__VFC_ComponentUpdateDetail</members>
+        <members>cwbtool__VF_ApexDetailDownload</members>
+        <members>cwbtool__VF_ApprovalProcess</members>
+        <members>cwbtool__VF_CompareDoc</members>
+        <members>cwbtool__VF_DownloadPermissionSet</members>
+        <members>cwbtool__VF_FullCustomApplicationDetail</members>
+        <members>cwbtool__VF_FullObjectDetail</members>
+        <members>cwbtool__VF_FullPermissionSetDetail</members>
+        <members>cwbtool__VF_FullProfileDetail</members>
+        <members>cwbtool__VF_FullWorkflowDetail</members>
+        <members>cwbtool__VF_LayoutDownload</members>
+        <members>cwbtool__VF_PermissionSetAssignment</members>
+        <members>cwbtool__VF_ProfileCompareDetail</members>
+        <members>cwbtool__VF_ProfileDownload</members>
+        <members>cwbtool__VF_SelectedPermissionSetAssignment</members>
+        <members>cwbtool__VF_StaticResource</members>
+        <members>cwbtool__VersionControl</members>
+        <members>cwbtool__dashboard</members>
+        <members>cwbtool__downloadHistory</members>
+        <members>cwbtool__oAuth2</members>
+        <members>cwbtool__updateMetaData</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Internal Zone</members>
+        <name>Community</name>
+    </types>
+    <types>
+        <members>cwbtool__CWB_Tool</members>
+        <members>standard__AppLauncher</members>
+        <members>standard__Chatter</members>
+        <members>standard__Community</members>
+        <members>standard__Content</members>
+        <members>standard__Insights</members>
+        <members>standard__Marketing</members>
+        <members>standard__Platform</members>
+        <members>standard__Sales</members>
+        <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Sites</members>
+        <members>standard__Work</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Account.Active__c</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.NumberofLocations__c</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <members>Account.SLASerialNumber__c</members>
+        <members>Account.SLA__c</members>
+        <members>Account.UpsellOpportunity__c</members>
+        <members>AutoRABIT__kav.Feedback__c</members>
+        <members>Case.EngineeringReqNumber__c</members>
+        <members>Case.PotentialLiability__c</members>
+        <members>Case.Product__c</members>
+        <members>Case.SLAViolation__c</members>
+        <members>Contact.Languages__c</members>
+        <members>Contact.Level__c</members>
+        <members>Goal.OrigGoalId__c</members>
+        <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.NumberofLocations__c</members>
+        <members>Lead.Primary__c</members>
+        <members>Lead.ProductInterest__c</members>
+        <members>Lead.SICCode__c</members>
+        <members>Metric.OrigMetricId__c</members>
+        <members>Opportunity.Contract_Duration__c</members>
+        <members>Opportunity.CurrentGenerators__c</members>
+        <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.ED__c</members>
+        <members>Opportunity.MainCompetitors__c</members>
+        <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.SD__c</members>
+        <members>Opportunity.TrackingNumber__c</members>
+        <members>Opportunity.amount__c</members>
+        <members>call__c.Verified_Customer__c</members>
+        <members>customsettingtest__c.Testcustomfield__c</members>
+        <members>cwbtool__AnalysisSummary__c.cwbtool__AnalysisLink__c</members>
+        <members>cwbtool__AnalysisSummary__c.cwbtool__ExportToPDF__c</members>
+        <members>cwbtool__AnalysisSummary__c.cwbtool__Field__c</members>
+        <members>cwbtool__AnalysisSummary__c.cwbtool__Object__c</members>
+        <members>cwbtool__AnalysisSummary__c.cwbtool__Summary__c</members>
+        <members>cwbtool__CWB_Setup__c.cwbtool__Batch_Size__c</members>
+        <members>cwbtool__CWB_Setup__c.cwbtool__ErrorLog__c</members>
+        <members>cwbtool__CWB_Setup__c.cwbtool__Include_Managed_Package_Detail__c</members>
+        <members>cwbtool__ConnectedOrg__c.cwbtool__Email__c</members>
+        <members>cwbtool__ConnectedOrg__c.cwbtool__Name__c</members>
+        <members>cwbtool__ConnectedOrg__c.cwbtool__OrgName__c</members>
+        <members>cwbtool__ConnectedOrg__c.cwbtool__Org_Id__c</members>
+        <members>cwbtool__ConnectedOrg__c.cwbtool__PromoCode__c</members>
+        <members>cwbtool__ConnectedOrg__c.cwbtool__UserId__c</members>
+        <members>cwbtool__ConnectedOrg__c.cwbtool__UserName__c</members>
+        <members>cwbtool__Connection__c.cwbtool__Current_Org__c</members>
+        <members>cwbtool__Connection__c.cwbtool__EndPoint__c</members>
+        <members>cwbtool__Connection__c.cwbtool__Enviroment__c</members>
+        <members>cwbtool__Connection__c.cwbtool__Is_Active__c</members>
+        <members>cwbtool__Connection__c.cwbtool__Metadata_ServerUrl__c</members>
+        <members>cwbtool__Connection__c.cwbtool__OrgId__c</members>
+        <members>cwbtool__Connection__c.cwbtool__OrganizationName__c</members>
+        <members>cwbtool__Connection__c.cwbtool__Satge__c</members>
+        <members>cwbtool__Connection__c.cwbtool__SessionId__c</members>
+        <members>cwbtool__Connection__c.cwbtool__Session_Time__c</members>
+        <members>cwbtool__Connection__c.cwbtool__UserEmail__c</members>
+        <members>cwbtool__Connection__c.cwbtool__UserFullName__c</members>
+        <members>cwbtool__Connection__c.cwbtool__UserId__c</members>
+        <members>cwbtool__Connection__c.cwbtool__UserName__c</members>
+        <members>cwbtool__Connection__c.cwbtool__Valid_Second__c</members>
+        <members>cwbtool__ErrorLog__c.cwbtool__ErrorType__c</members>
+        <members>cwbtool__ErrorLog__c.cwbtool__LineNumber__c</members>
+        <members>cwbtool__ErrorLog__c.cwbtool__Message__c</members>
+        <members>cwbtool__ErrorLog__c.cwbtool__StackTrace__c</members>
+        <members>cwbtool__FieldAnalysis__c.cwbtool__IsCustom__c</members>
+        <members>cwbtool__FieldAnalysis__c.cwbtool__Label__c</members>
+        <members>cwbtool__FieldAnalysis__c.cwbtool__ObjectAnalysis__c</members>
+        <members>cwbtool__FieldAnalysis__c.cwbtool__PopulatedOnPercent__c</members>
+        <members>cwbtool__FieldAnalysis__c.cwbtool__PopulatedOn__c</members>
+        <members>cwbtool__FieldAnalysis__c.cwbtool__Type__c</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__Filter__c</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__IsCustom__c</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__LastAnalyzeOn__c</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__ObjectLabel__c</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__ObjectName__c</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__Records__c</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__TotalField__c</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__TotalFields__c</members>
+        <members>cwbtool__LicenseManagement__c.cwbtool__Number_Of_License__c</members>
+        <members>cwbtool__LicenseManagement__c.cwbtool__OrgId__c</members>
+        <members>cwbtool__LicenseManagement__c.cwbtool__ValidFrom__c</members>
+        <members>cwbtool__LicenseManagement__c.cwbtool__ValidUpTo__c</members>
+        <members>cwbtool__LicenseManagement__c.cwbtool__VerificationToken__c</members>
+        <members>cwbtool__Record_Process__c.cwbtool__Is_Processed__c</members>
+        <members>cwbtool__Record_Process__c.cwbtool__Status__c</members>
+        <members>cwbtool__SelectedComponent__c.cwbtool__Component_Name__c</members>
+        <members>cwbtool__SelectedComponent__c.cwbtool__Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CLMAR16PRM013</members>
+        <members>cwbtool__Component_Limit</members>
+        <members>cwbtool__FreeLimitReachedMessage</members>
+        <members>cwbtool__Free_APP_Message</members>
+        <members>cwbtool__PaidAccountErrorMessage</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>AccountCleanInfo</members>
+        <members>AccountContactRole</members>
+        <members>Activity</members>
+        <members>Asset</members>
+        <members>AssistantProgress</members>
+        <members>AutoRABIT__kav</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Case</members>
+        <members>CaseContactRole</members>
+        <members>Contact</members>
+        <members>ContactCleanInfo</members>
+        <members>ContentVersion</members>
+        <members>Contract</members>
+        <members>ContractContactRole</members>
+        <members>DandBCompany</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>EmailMessage</members>
+        <members>Event</members>
+        <members>ExchangeUserMapping</members>
+        <members>FeedItem</members>
+        <members>ForecastingCategoryMapping</members>
+        <members>Idea</members>
+        <members>Lead</members>
+        <members>LeadCleanInfo</members>
+        <members>LinkedArticle</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>Opportunity</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityContactRole</members>
+        <members>OpportunityLineItem</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>PartnerRole</members>
+        <members>Pricebook2</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
+        <members>Site</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>StreamingChannel</members>
+        <members>Task</members>
+        <members>TestCustom__c</members>
+        <members>TestObject__c</members>
+        <members>User</members>
+        <members>UserProvisioningRequest</members>
+        <members>call__c</members>
+        <members>customsettingtest__c</members>
+        <members>cwbtool__AnalysisSummary__c</members>
+        <members>cwbtool__CWB_Setup__c</members>
+        <members>cwbtool__Connection__c</members>
+        <members>cwbtool__ErrorLog__c</members>
+        <members>cwbtool__FieldAnalysis__c</members>
+        <members>cwbtool__FieldTrack__c</members>
+        <members>cwbtool__Record_Process__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>AutoRABIT__kav-en_US</members>
+        <members>TestCustom__c-en_US</members>
+        <members>TestObject__c-en_US</members>
+        <members>call__c-en_US</members>
+        <members>customsettingtest__c-en_US</members>
+        <members>cwbtool__AnalysisSummary__c-en_US</members>
+        <members>cwbtool__CWB_Setup__c-en_US</members>
+        <members>cwbtool__Connection__c-en_US</members>
+        <members>cwbtool__ErrorLog__c-en_US</members>
+        <members>cwbtool__FieldAnalysis__c-en_US</members>
+        <members>cwbtool__FieldTrack__c-en_US</members>
+        <members>cwbtool__Record_Process__c-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>TestObject__c</members>
+        <members>call__c</members>
+        <members>cwbtool__CWB_Setup</members>
+        <members>cwbtool__CWB_Tool</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>cwbtool__CWB</members>
+        <members>cwbtool__CWB/cwbtool__User_Guide.pdf</members>
+        <members>cwbtool__CWB/cwbtool__logo.png</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>unfiled$public</members>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>Case.Standard</members>
+        <name>EscalationRule</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>DE Default</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>cwbtool</members>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>AccountTeamMember-Account Team Member Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>AutoRABIT__kav-AutoRABIT Advocacy Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>ContentVersion-Content Version Layout</members>
+        <members>Contract-Contract Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>Event-Event Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Lead-Lead %28Marketing%29 Layout</members>
+        <members>Lead-Lead %28Sales%29 Layout</members>
+        <members>Lead-Lead %28Support%29 Layout</members>
+        <members>Lead-Lead Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
+        <members>SocialPost-Social Post Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Task-Task Layout</members>
+        <members>TestObject__c-TestObject Layout</members>
+        <members>User-User Layout</members>
+        <members>UserProvAccount-User Provisioning Account Layout</members>
+        <members>UserProvisioningLog-User Provisioning Log Layout</members>
+        <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>call__c-call Layout</members>
+        <members>cwbtool__AnalysisSummary__c-Analysis Summary Layout</members>
+        <members>cwbtool__Connection__c-Connection Layout</members>
+        <members>cwbtool__ErrorLog__c-Error Log ID Layout</members>
+        <members>cwbtool__FieldAnalysis__c-Field Analysis Layout</members>
+        <members>cwbtool__FieldTrack__c-Field Track Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewLastWeek</members>
+        <members>Account.NewThisWeek</members>
+        <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>Activity.AllActivities</members>
+        <members>Activity.MyActivities</members>
+        <members>Activity.TodaysTasks</members>
+        <members>Activity.UpcomingEvents</members>
+        <members>Asset.AllAssets</members>
+        <members>Campaign.AllActiveCampaigns</members>
+        <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllClosedCases</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
+        <members>Contact.AllContacts</members>
+        <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.MyContacts</members>
+        <members>Contact.NewLastWeek</members>
+        <members>Contact.NewThisWeek</members>
+        <members>Contract.AllActivatedContracts</members>
+        <members>Contract.AllContracts</members>
+        <members>Contract.AllDraftContracts</members>
+        <members>Contract.AllInApprovalContracts</members>
+        <members>Contract.MyActivatedContracts</members>
+        <members>Contract.MyDraftContracts</members>
+        <members>Contract.MyInApprovalContracts</members>
+        <members>Idea.Ideas_Last_7_Days</members>
+        <members>Lead.AllOpenLeads</members>
+        <members>Lead.MyUnreadLeads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Lead.ViewCustom1</members>
+        <members>Lead.ViewCustom2</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewLastWeek</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Private</members>
+        <members>Opportunity.Won</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
+        <members>Product2.AllProducts</members>
+        <members>Solution.AllReviewedSolutions</members>
+        <members>Solution.AllUnreviewedSolutions</members>
+        <members>TestObject__c.All</members>
+        <members>User.ActiveUsers</members>
+        <members>User.AdminUsers</members>
+        <members>User.AllUsers</members>
+        <members>WorkFeedbackRequest.AboutTopics</members>
+        <members>WorkFeedbackRequest.All</members>
+        <members>WorkFeedbackTemplate.All</members>
+        <members>call__c.All</members>
+        <members>cwbtool__AnalysisSummary__c.cwbtool__All</members>
+        <members>cwbtool__ErrorLog__c.cwbtool__All</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>Knowledge_User</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Authenticated Website</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>Customer Community Login User</members>
+        <members>Customer Community Plus Login User</members>
+        <members>Customer Community Plus User</members>
+        <members>Customer Community User</members>
+        <members>Customer Portal Manager Custom</members>
+        <members>Customer Portal Manager Standard</members>
+        <members>External Identity User</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
+        <members>Gold Partner User</members>
+        <members>High Volume Customer Portal User</members>
+        <members>HighVolumePortal</members>
+        <members>Identity User</members>
+        <members>MarketingProfile</members>
+        <members>Partner App Subscription User</members>
+        <members>Partner Community Login User</members>
+        <members>Partner Community User</members>
+        <members>PlatformPortal</members>
+        <members>ReadOnly</members>
+        <members>Silver Partner User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <members>Work%2Ecom Only User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Case.NewChildCase</members>
+        <members>CollaborationGroup.NewGroupMember</members>
+        <members>CollaborationGroup.NewGroupRecord</members>
+        <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>LogACall</members>
+        <members>NewAccount</members>
+        <members>NewCase</members>
+        <members>NewContact</members>
+        <members>NewEvent</members>
+        <members>NewGroup</members>
+        <members>NewLead</members>
+        <members>NewNote</members>
+        <members>NewOpportunity</members>
+        <members>NewTask</members>
+        <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
+        <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
+        <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
+        <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>ApexDevNet</members>
+        <members>cwbtool__CWBAPIENDPOINT</members>
+        <members>cwbtool__CWBProductionLoginURL</members>
+        <members>cwbtool__CWBSandboxLoginURL</members>
+        <members>cwbtool_mdapidetail</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>CWB_Report</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Accounts_with_Contact</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>CEO</members>
+        <members>CFO</members>
+        <members>COO</members>
+        <members>ChannelSalesTeam</members>
+        <members>CustomerSupportInternational</members>
+        <members>CustomerSupportNorthAmerica</members>
+        <members>DirectorChannelSales</members>
+        <members>DirectorDirectSales</members>
+        <members>EasternSalesTeam</members>
+        <members>InstallationRepairServices</members>
+        <members>MarketingTeam</members>
+        <members>SVPCustomerServiceSupport</members>
+        <members>SVPHumanResources</members>
+        <members>SVPSalesMarketing</members>
+        <members>VPInternationalSales</members>
+        <members>VPMarketing</members>
+        <members>VPNorthAmericanSales</members>
+        <members>WesternSalesTeam</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>PromotionPlanning</members>
+        <members>cwbtool__CWBNewCss</members>
+        <members>cwbtool__FieldTrackSupport</members>
+        <members>cwbtool__ImpactAnalysisPDFStyle</members>
+        <members>cwbtool__ImpactAnalysisPDFStyle2</members>
+        <members>cwbtool__LicenseManagementResource</members>
+        <members>cwbtool__UpdateMetaDataResource</members>
+        <members>cwbtool__cwb</members>
+        <members>cwbtool__dashboard</members>
+        <members>cwbtool__dashboardlib</members>
+        <members>cwbtool__datatableWithBootstrap</members>
+        <members>cwbtool__datatablecustomcss</members>
+        <members>cwbtool__googleAnalytics</members>
+        <members>cwbtool__introJs</members>
+        <members>cwbtool__jsLib</members>
+        <members>cwbtool__switch</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account.Testvalidation</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Opportunity.DeliveryStatus</members>
+        <members>cwbtool__FieldTrack__c.cwbtool__Analyze</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>Account.capture_Type_chang1e</members>
+        <members>Account.capture_Type_change</members>
+        <members>Opportunity.update_closedate</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>Account.Capture Change</members>
+        <members>Opportunity.Change Stage Date</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>ChatterAnswers</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LeadConvert</members>
+        <members>LiveAgent</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrgPreference</members>
+        <members>PathAssistant</members>
+        <members>PersonalJourney</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Search</members>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    <version>37.0</version>
+</Package>

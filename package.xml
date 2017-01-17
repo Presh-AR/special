@@ -170,6 +170,7 @@
         <members>cwbtool__downloadHistory</members>
         <members>cwbtool__oAuth2</members>
         <members>cwbtool__updateMetaData</members>
+        <members>testpage</members>
         <name>ApexPage</name>
     </types>
     <types>

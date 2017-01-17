@@ -5,6 +5,7 @@
         <members>A0</members>
         <members>ARApexTest</members>
         <members>AccountHandler</members>
+        <members>AccountTestMM2</members>
         <members>BuildAccount</members>
         <members>CreateLeaseDocsVFController</members>
         <members>TestSoql</members>
